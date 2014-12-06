@@ -1,3 +1,7 @@
+site_security:
+    resource: "@SiteSecurityBundle/Resources/config/routing.yml"
+    prefix:   /
+
 app:
     resource: @AppBundle/Controller/
     type:     annotation
